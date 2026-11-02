@@ -42,5 +42,6 @@
 	Delete "$INSTDIR\App\Kleopatra\gpg4win-uninstall.exe.nsis"
 
 	CreateDirectory $INSTDIR\Data\.gnupg
+	CreateDirectory $INSTDIR\App\GnuPG
 
 !macroend
